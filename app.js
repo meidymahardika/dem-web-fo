@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Routes
 app.get('/', (req, res) => {
     res.render('pages/home', {
-        title: 'Home Page',
+        title: 'DEM Logistic',
         content: 'Welcome to our website'
     });
 });
